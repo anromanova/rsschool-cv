@@ -2,7 +2,7 @@
 ## Contact information
 * **Phone:** +79851525825
 * **Email:** anastasiya.erohina@gmail.com
-* **Github:** https://github.com/anromanova
+* **Github:** [anromanova](https://github.com/anromanova "Github account")
 * **Russia, Moscow**
 
 ## About me
