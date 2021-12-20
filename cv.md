@@ -4,22 +4,28 @@
 * **Email:** anastasiya.erohina@gmail.com
 * **Github:** https://github.com/anromanova
 * **Russia, Moscow**
+
 ## About me
+Having the diverse experience I am currently looking for opportunities to grow in Front-end development.\
+I have a strong organizational ability, skilled at working closely with others in a team environment and with a flexible approach to work.
 
 ## Educational Background
- NOVOSIBIRSK STATE UNIVERSITY OF ARCHITECTURE, DESIGN AND ARTS\
+ * Novosibirsk State University of Architecture, Desing and Arts\
 *2013\
 Novosibirsk, Russia*
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 ## Experiences
+[CV project](https://github.com/anromanova/rsschool-cv "CV project")
 
-## Skills and abilities
+## Skills
 * HTML, CCS
-* JS
+* JavaScript (basics)
 * Git
 * Photoshop
 * Figma
-* *The ability to work under extreme pressure*
+* VSCode
+
 ## Code example
 ```javascript
 // Write a function "greet" that returns "hello world!"
@@ -27,6 +33,7 @@ let greet = function () {
   return 'hello world!';
 };
 ```
+
 ## Languages
 * **Russian** - native
 * **English** - B1 (ESB English Certificate Intermediate Level)
