@@ -4,9 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Anastasia Romanova CV</title>
+    <!-- <link rel="icon" href="assets/favicon.ico"> -->
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <!-- Можно сразу убрать подчёркивание у ссылок, указать цвет и размер шрифта -->
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container" >
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/77p6ZeT5WrU.jpg" width="400" alt="photo of Anastasia Romanova">
+                <div class="section-profile-title">
+                    <h1 class="section-title">Anastasia Romanova</h1>
+                    <p>Junior Front-End Developer</p>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contact information</h2>
+                <ul class="section-list">
+                    <li class="section-item">Phone: +79851525825</li>
+                    <li class="section-item">Email: <a href="mailto:anastasiya.erohina@gmail.com">anastasiya.erohina@gmail.com</a></li>
+                    <li class="section-item">Github: <a href="https://github.com/anromanova" title="GitHub" target="blanc">anromanova</a></li>
+                    <li class="section-item">Russia, Moscow</li>
+                </ul>
+            </section>
+            <section class="section" id="about-me">
+                <h2 class="section-title">About me</h2>
+                <p>Having the diverse experience I am currently looking for opportunities to grow in Front-End Development.
+                    I have a strong organizational ability, skilled at working closely with others in a team environment and with a flexible approach to work.</p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Educational Background</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        Novosibirsk State University of Architecture, Desing and Arts <br>
+                        2013 <br>
+                        Novosibirsk, Russia
+                    </li>
+                    <li class="section-item">
+                        RS Schools Course «JavaScript/Front-end. Stage 0»<br> (in progress)
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">My projects</h2>
+                <p><a href="https://anromanova.github.io/rsschool-cv/" title="CV project" target="blanc">CV project</a></p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-item">
+                    <li class="section-item">HTML, CCS</li>
+                    <li class="section-item">JavaScript (basics)</li>
+                    <li class="section-item">Git</li>
+                    <li class="section-item">Figma, Photoshop</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code example</h2>
+                <pre>
+                    <code>
+// Write a function "greet" that returns "hello world!"
+    let greet = function () {
+    return 'hello world!';
+    };
+                                        </code>
+                </pre>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-item">
+                    <li class="section-item">Russian - native</li>
+                    <li class="section-item">English - B1 (ESB English Certificate Intermediate Level)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="https://github.com/anromanova" class="github" title="GitHub" target="blanc"></a>
+            <p>2022</p>
+            <a href="https://rs.school/js/" class="rss" title="RS school" target="blanc"></a>
+        </div>
+    </footer>
 </body>
 </html>

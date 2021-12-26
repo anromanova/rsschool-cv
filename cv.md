@@ -15,7 +15,7 @@ I have a strong organizational ability, skilled at working closely with others i
 Novosibirsk, Russia*
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
-## Experiences
+## Projects
 [CV project](https://github.com/anromanova/rsschool-cv "CV project")
 
 ## Skills
