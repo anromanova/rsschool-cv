@@ -1,8 +1,171 @@
+@font-face {
+    font-family: Poppins;
+     src: url("assets/fonts/Poppins-Light.ttf");
+   }
+
+@font-face {
+    font-family: Poppins;
+     src: url("assets/fonts/Poppins-Medium.ttf");
+   }
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth; 
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+  background-color: #ffeead;
+}
+
 body {
+    margin: 0 auto; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1200px;
 
-};
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 100;
+    min-height: 100vh;
+  };
 
-footer {
-    
-};
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
 
+/* nav */
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+.nav-link {
+    padding: 0 30px;
+    line-height: 50px;
+    text-decoration: none;
+    color:#4C54A3;
+  }
+
+.nav-link::after {
+    padding: 0 30px;
+    line-height: 50px;
+    color: #282d39;
+    text-decoration: none;
+  }
+
+.nav-link:hover {
+    transition: .3s;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+/* main */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.section {
+    width: 50%;
+    padding: 20px;
+}
+
+.profile {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.section-profile-title {
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+pre {
+    padding: 10px;
+    margin: 0;
+    font-family: monospace;
+    background-color: #eeece6de;
+    font-size: 18px;
+    border-radius: 20px;
+    color: #4C54A3;
+}
+
+.section-link {
+  color:#4C54A3;
+  padding: 0 30px;
+  line-height: 50px;
+  transition: color 0.5s;
+}
+
+.section-link::after {
+  padding: 0 30px;
+  line-height: 50px;
+  color: #282d39;
+  text-decoration: none;
+}
+
+.section-link:hover {
+  transition: .3s;
+  text-decoration: none;
+}
+
+/* footer */
+.github {
+    width: 45px;
+    height: 45px;
+    background-image: url("./assets/svg/github_logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/svg/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #4C54A3;
+    background-color:#ffeead;
+}
+
+.footer {
+    display: block;
+}
