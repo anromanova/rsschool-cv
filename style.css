@@ -59,7 +59,7 @@ body {
   }
 
 .nav-link {
-    padding: 0 30px;
+    padding: 0 5px;
     line-height: 50px;
     text-decoration: none;
     color:#4C54A3;
@@ -73,9 +73,7 @@ body {
   }
 
 .nav-link:hover {
-    transition: .3s;
-    text-transform: uppercase;
-    text-decoration: none;
+  border-bottom: 2px solid #4C54A3;
   }
 
 /* main */
@@ -136,6 +134,17 @@ pre {
 .section-link:hover {
   transition: .3s;
   text-decoration: none;
+}
+
+.section-wrapper .section-link, .certificate-link {
+padding: 0;
+}
+
+.project-link,
+.certificate-link,
+.contacts,
+.code-desk {
+  font-weight: 900;
 }
 
 /* footer */
